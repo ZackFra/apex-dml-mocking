@@ -13,6 +13,7 @@
     "url": "git+https://github.com/jamessimone/apex-dml-mocking.git"
   },
   "scripts": {
+    "sf:package:create": "sf package create -t Unlocked --name 'Apex DML Mocks' --path force-app --no-namespace --target-dev-hub ApexRepository",
     "sf:package:version:create": "sf package version create --package 'Apex DML Mocks' --wait 10 --target-dev-hub ApexRepository",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,yaml,yml}\""
   },
